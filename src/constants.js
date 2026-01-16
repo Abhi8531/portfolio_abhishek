@@ -145,7 +145,7 @@ export const SkillsInfo = [
       img: salesforceLogo,
       role: "Salesforce Developer Intern",
       company: "SmartInternz (AICTE)",
-      date: "September 2021 - August 2022",
+      date: "December 2023 - January 2024",
       desc: "Completed an intensive 8-week virtual internship focused on Salesforce fundamentals. Gained hands-on experience in Apex programming, Testing & Debugging, and Process Automation. Successfully earned Super Badges for Apex Specialist and Process Automation Specialist while working with Lightning Web Components (LWC).",
       skills: [
         "Salesforce",
@@ -163,7 +163,7 @@ export const SkillsInfo = [
       id: 0,
       img: pceLogo,
       school: "Purnea College of Engineering, Purnea",
-      date: "Oct 2022 – June 2026 (Expected)",
+      date: "Oct 2022 – June 2026",
       branch: "Electronics and Communication Engineering",
       desc: "I am currently pursuing my Bachelor's degree in Electronics and Communication Engineering at Purnea College of Engineering. While my academic coursework focuses on core electronics, I have actively directed my learning toward Computer Science and software engineering. I have built a strong foundation in Data Structures and Algorithms (DSA) and Full Stack Web Development through self-study and practical projects. My time here has been defined by bridging the gap between hardware principles and modern software solutions, preparing me for a versatile role in the tech industry.",
       degree: "Bachelor of Technology - B.Tech",
