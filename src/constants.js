@@ -47,6 +47,7 @@ import solarLogo from './assets/work_logo/solar.png';
 import calcLogo from './assets/work_logo/calc.png';
 import cineLogo from './assets/work_logo/cine.png';
 import plannerLogo from './assets/work_logo/planner.png';
+import krishiLogo from './assets/work_logo/krishi.png';
 
 
 export const SkillsInfo = [
@@ -189,13 +190,13 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "3D Solar System",
+      title: "SmartKrishi AI - Precision Agriculture Ecosystem",
       description:
-        "An immersive and visually stunning 3D simulation of our solar system designed to turn complex celestial dynamics into an interactive educational experience. Built using Three.js, this application renders realistic planetary motion, textures, and lighting in real-time. It provides users with a captivating way to explore orbital mechanics and the scale of the universe directly from their browser.",
-      image: solarLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Three.js", "3D Modeling"],
-      github: "https://github.com/Abhi8531/3D-Solar-System.git",
-      webapp: "https://3d-solar-system-by-abhi.vercel.app/",
+        "An end-to-end IoT and AI-powered precision agriculture ecosystem designed to empower Indian farmers. It integrates ESP8266 and ESP32-CAM hardware with deep learning models (MobileNetV2, YOLOv8) for real-time monitoring, plant disease diagnosis, and pest detection. The platform features a React 19 dashboard, automated irrigation control, and an e-commerce marketplace for smart farming kits.",
+      image: krishiLogo,
+      tags: ["IoT", "React JS", "ExpressJS", "Node.js", "Python", "AI/ML", "MongoDB", "ESP32", "TensorFlow Lite"],
+      github: "https://github.com/abhishekvnagar/smartkrishiai.git",
+      webapp: "https://smartkrishiaiextended.vercel.app/",
     },
     {
       id: 1,
@@ -219,6 +220,18 @@ export const SkillsInfo = [
     },
     {
       id: 3,
+      title: "3D Solar System",
+      description:
+        "An immersive and visually stunning 3D simulation of our solar system designed to turn complex celestial dynamics into an interactive educational experience. Built using Three.js, this application renders realistic planetary motion, textures, and lighting in real-time. It provides users with a captivating way to explore orbital mechanics and the scale of the universe directly from their browser.",
+      image: solarLogo,
+      tags: ["HTML", "CSS", "JavaScript", "Three.js", "3D Modeling"],
+      github: "https://github.com/Abhi8531/3D-Solar-System.git",
+      webapp: "https://3d-solar-system-by-abhi.vercel.app/",
+    },
+    
+    
+    {
+      id: 4,
       title: "Smart Study Planner",
       description:
         "A comprehensive full-stack application designed to revolutionize interview preparation through personalized planning. This smart platform generates custom study schedules and tracks real-time progress across coding challenges and technical concepts. Powered by Next.js and Supabase, it leverages OpenAI to adapt to the user's learning pace, ensuring a structured and efficient path to career success.",
